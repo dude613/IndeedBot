@@ -47,7 +47,6 @@ for position in positions:
 #Create final result dataframe
 df_result = pd.DataFrame({"Position": positions, "Title": RESULT_TITLE, "Confidence Level": RESULT_CONFIDENCE})
 
-
 #print the first 20 rows
 print(df_result.head(20))
 
