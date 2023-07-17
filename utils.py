@@ -8,7 +8,8 @@ def calculate_sentence_similarity(sentence1, sentence2):
     '''
         A function that uses an ML lib called spacy to 
         get the similarity of words or sentences using their
-        meanings
+        meanings.
+        sentence1 or sentence2 can be any word and not necessarily be a sentence
     '''
     # Process the sentences or words with spaCy
     doc1 = nlp(sentence1)
